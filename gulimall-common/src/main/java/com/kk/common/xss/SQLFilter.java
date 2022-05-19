@@ -8,7 +8,7 @@
 
 package com.kk.common.xss;
 
-import com.kk.common.utils.RRException;
+import com.kk.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
