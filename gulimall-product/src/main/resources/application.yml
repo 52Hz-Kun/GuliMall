@@ -1,14 +1,19 @@
 spring:
   datasource:
     username: root
-    password: root
-    url: jdbc:mysql://106.14.1.12:3306/gulimall_pms
+    password: rootroot
+    url: jdbc:mysql://127.0.0.1:3306/gulimall_pms
 #    driver-class-name: com.mysql.jdbc.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tQ2UE1bwTRt4Bpynqqf
+      secret-key: QExWhCQWoJCL361ILj3s1nLGpCLHpv
+      oss:
+        endpoint: oss-cn-hangzhou.aliyuncs.com
 
   application:
     name: gulimall-product
@@ -23,3 +28,4 @@ mybatis-plus:
 
 server:
   port: 10000
+
